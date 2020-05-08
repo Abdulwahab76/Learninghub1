@@ -1,0 +1,419 @@
+body {
+  line-height: 1.7;
+  color: #666666;
+  font-size: 14px;
+}
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.plr-5 {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+.ptb-5 {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.mt-5 {
+  margin-top: 5px !important;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mr-30 {
+  margin-right: 30px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-30 {
+  padding: 30px;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+
+h2 {
+  color: #316dc3;
+  font-family: "Arvo", serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+h3 {
+  font-weight: 600;
+  line-height: 1.42857143;
+  color: #316dc3;
+  font-family: "Arvo", serif;
+  font-size: 24px;
+}
+h4 {
+  line-height: 1.42857143;
+  color: #316dc3;
+  font-size: 18px;
+}
+.my-4 p {
+  line-height: 1.9;
+  letter-spacing: 1px;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+div.my-4 {
+  width: 100%;
+  overflow: hidden;
+}
+div.my-4 p {
+  animation: slide-left 2s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.title-icon1,
+.line-bottom {
+  position: relative;
+  top: 10px;
+}
+h5 {
+  font-size: 14px;
+}
+.text-themeout-colored {
+  color: #427900 !important;
+}
+img {
+  max-width: 100%;
+}
+.title-icon1 img {
+  display: block;
+  margin: auto;
+}
+.title-icon1 img {
+  max-width: 100%;
+  height: 40px;
+}
+.services-d {
+  background-color: #2755e9;
+  min-height: 310px;
+  display: flex;
+  align-items: center;
+}
+.service-i {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: auto;
+}
+.font-42 {
+  font-size: 3rem !important;
+}
+.what-we-do {
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+  /* height: 400px; */
+}
+.what-we-do img {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: auto;
+}
+.line-bottom {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.line-bottom:after {
+  background: #427900;
+  bottom: -1px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 50px;
+}
+/* image gallery */
+.gallery1 h2 {
+  text-align: center;
+  /* align-items: center; */
+  padding-top: 10px;
+  color: #316dc3;
+  font-family: "Arvo", serif;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.pic {
+  position: relative;
+  bottom: 11px;
+}
+.gallery1 span {
+  color: #427900;
+}
+.gallery1 {
+  padding-bottom: 40px;
+  /* margin: 10px 10px 0px 0px; */
+  align-items: center;
+}
+.img-fluid {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 12px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.widget ul li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.mr-5 {
+  margin-right: 5px !important;
+}
+.widget-title.line-bottom {
+  border-bottom: 1px solid #444 !important;
+}
+
+footer .widget .widget-title {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+.widget .widget-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.line-bottom {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+.styled-icons {
+  display: inline-flex;
+  list-style: none;
+}
+.styled-icons a {
+  color: white;
+}
+.styled-icons li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7px;
+  width: 30px;
+  height: 30px;
+  /* background: #316dc3; */
+  border-radius: 50%;
+}
+.ic-1 li i {
+  color: #316dc3;
+}
+.styled-icons li i:hover {
+  color: white;
+}
+
+.bg-blue {
+  background-color: #316dc3;
+}
+.font-13 {
+  font-size: 13px !important;
+}
+.font-11 {
+  font-size: 11px;
+}
+.footer-end {
+  padding: 9px 0px;
+}
+.header-social--icon li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-social--icon li a:hover {
+  background: #316dd9 !important;
+}
+.navbar-light .navbar-nav .nav-link:focus {
+  background: #316dd9 !important;
+  color: white !important;
+}
+
+.border-transperant {
+  background-color: #f7f8fa;
+  border: 2px solid black;
+  outline: 1px solid black;
+  padding: 4px 12px 5px 8px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(45, 83, 45, 0.678);
+  margin: 0px 5px 2px 1px;
+  border: none;
+}
+.headline {
+  padding: 6px 10px 6px 10px;
+  text-align: center;
+  background-color: #316dc3;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.navbar--nav .dropdown-menu a {
+  padding: 7px 25px 7px 22px;
+  color: #666;
+  font-weight: 600;
+}
+.navbar--nav > li > a {
+  color: #333333 !important;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px !important;
+  border-radius: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  background: #316dc3;
+  color: #fff !important;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: 0px;
+}
+.dropdown-toggle::after {
+  font-family: "Font Awesome 5 Free";
+  border: none !important;
+  content: "\f107";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+.team-wrapper1 {
+  width: 89%;
+  /* padding-top: 70px; */
+  margin: 0 40px;
+  /* align-items: center; */
+}
+.col-team1 {
+  width: 25%;
+  float: left;
+  padding: 35px 10px 5px 0px;
+  background-color: white;
+}
+.col-team1 img {
+  width: 30px;
+  max-width: 100%;
+  padding-bottom: 5px;
+}
+.tcol1 h3 {
+  font-size: 16px;
+  color: #316dc3;
+  font-family: "Arvo", serif;
+  font-weight: 600;
+}
+
+.tcol1 {
+  max-width: 200px;
+  max-height: 190px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.05);
+  background-color: #f7f8fa;
+}
+.team-wrapper1::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* Updating */
+.events h3 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  font-size: 35px;
+  color: #316dc3;
+}
+.events > p {
+  padding: 20px 25px 20px 20px;
+  background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-041.jpg");
+  background-attachment: fixed;
+  text-align: center;
+}
+.events span {
+  color: #316dc3;
+  cursor: pointer;
+}
+/* Media Queries for all */
+
+@media (min-width: 413px) and (max-width: 750px) {
+  .team-wrapper1 {
+    position: relative;
+    align-items: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 823px) {
+  .col-team1 {
+    width: 100%;
+    position: relative;
+    /* left: 20px; */
+  }
+}
+@media (min-width: 320px) and (max-width: 411px) {
+  .team-wrapper1 {
+    width: 70%;
+    position: relative;
+    left: 10px;
+  }
+}
+@media (min-width: 374px) and (max-width: 800px) {
+  .team-wrapper1 {
+    width: 70%;
+    position: relative;
+    left: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .full-width {
+    width: 100%;
+
+    float: left;
+  }
+}
